@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: linear-gradient(135deg, #0d0d2b, #1a1a40, #3a0ca3, #4cc9f0);
+    background-size: 400% 400%;
+    animation: galaxy 20s ease infinite;
+    color: white;
+}
+
+@keyframes galaxy {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
